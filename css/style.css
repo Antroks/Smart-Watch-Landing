@@ -262,25 +262,29 @@ hr {
     display: flex;
     justify-content: space-between;
 }
-.product-flex__item {
-    position: relative;
-    z-index: 1;
-    padding: 3px 1px 1px 1.5px;
+
+
+.product-flex-border {
+    padding: 3px 1px 1px 2px;
     height: 400px;
     width: 312px;
     border-radius: 64px;
     border: 3px solid #cccccc;
-    overflow: hidden;
+    
 }
-.product-img {
+
+.product-flex__item {
     position: relative;
-    z-index: 1;
+    z-index: 2;
     overflow: hidden;
     border: 1px solid #cccccc;
     height: 388px;
     width: 303px;
     border-radius: 60px;
     background-color: #F8D7D9;
+}
+.product-img {
+   
 }
 .product-img__second {
     background-color: #D6D7DB;
@@ -290,6 +294,10 @@ hr {
     background-color: #DCD2D4;
 }
 
+.product-img {
+    
+}
+
 .btn-circle {
     height: 144.4px;
     width: 144.4px;
@@ -297,7 +305,7 @@ hr {
     border: none;
     border-radius: 50%;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     bottom: -60px;
     left: -55px;
     color: #3A3F55;
@@ -337,11 +345,59 @@ hr {
     background-color: #3A3F55;
 } */
 
-.vr {
+/* .vr {
     margin-top: -2px;
     height: 2px;
     width: 14px;
     background-color: #3A3F55;
     transform: rotate(90deg);
-} */
+}  */
 
+.review {
+    padding-top: 103px;
+    
+}
+.review-item {
+    display: flex;
+    justify-content: space-between;
+}
+.video-review {
+    border-radius: 10px;
+    opacity: 60%;
+}
+.review-text {
+}
+.review-text .text-h2 {
+    text-transform: none;
+    text-align: left;
+    width: 486px;
+}
+.review-text .text-p {
+    width: 440px;
+    margin-bottom: 50px;
+}
+
+.button-review {
+    color: #1617DB;
+
+}
+
+.icon-block {
+    padding: 3.15px;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: rgb(207, 207, 207, 50%);
+    backdrop-filter: blur(150px);
+}
+
+.fa-play {
+    padding: 7px 10px;
+    font-size: 14px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(207, 207, 207, 50%); 
+    border: 1px solid #cdcdcd;
+    backdrop-filter: blur(150px);
+}
