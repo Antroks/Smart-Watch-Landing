@@ -355,6 +355,7 @@ hr {
 
 .review {
     padding-top: 103px;
+    padding-bottom: 88px;
     
 }
 .review-item {
@@ -379,6 +380,11 @@ hr {
 
 .button-review {
     color: #1617DB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    width: 186px;
 
 }
 
